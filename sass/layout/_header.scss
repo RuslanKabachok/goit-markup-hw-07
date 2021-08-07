@@ -1,17 +1,17 @@
 .portfolio {
   position: relative;
-}
 
-.portfolio.current::after {
-  content: "";
-  position: absolute;
-  width: 78px;
-  height: 4px;
-  left: 0px;
-  top: 45px;
+  &.current::after {
+    content: "";
+    position: absolute;
+    width: 78px;
+    height: 4px;
+    left: 0px;
+    top: 45px;
 
-  background: var(--accent-color);
-  border-radius: 2px;
+    background: var(--accent-color);
+    border-radius: 2px;
+  }
 }
 
 .divclass {

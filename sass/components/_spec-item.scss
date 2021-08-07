@@ -1,8 +1,8 @@
 .spec-item {
   justify-content: center;
   align-items: center;
-}
 
-.spec-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
