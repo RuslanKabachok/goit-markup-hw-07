@@ -8,12 +8,12 @@
   background-color: rgba(255, 255, 255, 0.1);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.link-icon-footer:hover,
-.link-icon-footer:focus,
-.link-icon-footer:hover .icon-link-footer,
-.link-icon-footer:focus .icon-link-footer {
-  fill: var(--white-color);
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus,
+  &:hover .icon-link-footer,
+  &:focus .icon-link-footer {
+    fill: var(--white-color);
+    background-color: var(--accent-color);
+  }
 }
