@@ -1,0 +1,26 @@
+.main-section {
+  padding-top: 94px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.portfolio-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+  margin-bottom: 94px;
+}
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+}

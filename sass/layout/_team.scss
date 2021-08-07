@@ -1,0 +1,22 @@
+.link-list {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+.link-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-between;
+}

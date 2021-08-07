@@ -1,0 +1,29 @@
+.spec-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.spec-list {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.spec-list-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.spec-list-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--grey-color);
+}

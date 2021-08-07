@@ -1,0 +1,73 @@
+.portfolio {
+  position: relative;
+}
+
+.portfolio.current::after {
+  content: "";
+  position: absolute;
+  width: 78px;
+  height: 4px;
+  left: 0px;
+  top: 45px;
+
+  background: var(--accent-color);
+  border-radius: 2px;
+}
+
+.divclass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
+  border-bottom: 1px solid #ececec;
+  padding: 15px;
+  width: 1600px;
+  height: 80px;
+}
+
+.menu {
+  display: flex;
+  margin-left: 93px;
+}
+
+.contacts {
+  display: flex;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+
+.contact-container {
+  display: flex;
+}
+
+.logo-end {
+  color: var(--text-color);
+}
+
+.menu {
+  align-items: center;
+}
+
+.contact-img-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--grey-color);
+}
+
+.contact-img-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--grey-color);
+}
