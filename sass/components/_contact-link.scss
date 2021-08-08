@@ -1,4 +1,4 @@
-.contact-link {
+.contact__link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -13,10 +13,10 @@
 
   &:hover,
   &:focus,
-  &:hover .contact-img-envelope,
-  &:focus .contact-img-envelope,
-  &:hover .contact-img-phone,
-  &:focus .contact-img-phone {
+  &:hover .contact__img-envelope,
+  &:focus .contact__img-envelope,
+  &:hover .contact__img-phone,
+  &:focus .contact__img-phone {
     color: var(--accent-color);
     fill: var(--accent-color);
   }

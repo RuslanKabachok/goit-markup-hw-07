@@ -50,7 +50,7 @@
   display: flex;
 }
 
-.logo-end {
+.logo_end {
   color: var(--text-color);
 }
 
@@ -58,14 +58,14 @@
   align-items: center;
 }
 
-.contact-img-envelope {
+.contact__img-envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: var(--grey-color);
 }
 
-.contact-img-phone {
+.contact__img-phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
