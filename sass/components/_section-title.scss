@@ -1,10 +1,14 @@
-.section-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
+@media screen and(min-width: 1200px) {
+  .section-title {
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+    margin: 0 auto 50px auto;
 
-  color: var(--text-color);
+    color: var(--text-color);
+  }
 }

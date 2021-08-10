@@ -190,11 +190,31 @@ img {
   margin-bottom: 30px;
 }
 
+/*@media screen and(min-width: 768px) {
+  .list-icon {
+    width: 354px;
+  }
+}
+*/
 /*.spec-item {
   justify-content: center;
   align-items: center;
 }
 */
+@media screen and (min-width: 768px) {
+  .spec-item {
+    width: 354px;
+    height: 251px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .spec-item {
+    width: 270px;
+    height: 251px;
+  }
+}
+
 .section-description {
   position: absolute;
   width: 370px;
@@ -212,14 +232,18 @@ img {
   padding-bottom: 27px;
 }
 
-.section-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  color: var(--text-color);
+@media screen and (min-width: 1200px) {
+  .section-title {
+    display: block;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    color: var(--text-color);
+  }
 }
 
 .link-icon {
@@ -1215,19 +1239,53 @@ img {
   margin-bottom: 30px;
 }
 
-.section-container {
-  display: block;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+@media screen and (min-width: 768px) {
+  .spec-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .spec-section {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
-.section-item {
-  position: relative;
+@media screen and (min-width: 1200px) {
+  .spec-section {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 
 .wawd-section {
-  padding-bottom: 94px;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .wawd-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 94px;
+  }
+  .section-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section-item {
+    position: relative;
+  }
 }
 
 .link-list {

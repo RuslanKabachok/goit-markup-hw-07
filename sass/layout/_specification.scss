@@ -29,3 +29,20 @@
   color: var(--grey-color);
   margin-bottom: 30px;
 }
+
+@media screen and(min-width: 768px) {
+  .spec-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .spec-section {
+    justify-content: space-between;
+  }
+}
+
+@media screen and(min-width:1200px) {
+  .spec-section {
+    justify-content: space-evenly;
+  }
+}

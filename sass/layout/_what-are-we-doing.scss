@@ -1,12 +1,19 @@
-.section-container {
-  display: block;
-  justify-content: space-between;
-}
-
-.section-item {
-  position: relative;
-}
-
 .wawd-section {
-  padding-bottom: 94px;
+  display: none;
+}
+
+@media screen and(min-width:1200px) {
+  .wawd-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+  }
+  .section-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-item {
+    position: relative;
+  }
 }

@@ -3,3 +3,17 @@
   align-items: center;
 }
 */
+
+@media screen and(min-width: 768px) {
+  .spec-item {
+    width: 354px;
+    height: 251px;
+  }
+}
+
+@media screen and(min-width: 1200px) {
+  .spec-item {
+    width: 270px;
+    height: 251px;
+  }
+}
