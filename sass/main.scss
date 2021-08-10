@@ -1,51 +1,34 @@
-// UTILS
-@import "./utils/variables";
-@import "./utils/vissually-hidden";
+// Utils
 
-// BASE
-@import "./base/common";
-@import "./base/container";
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/mixins';
 
-// COMPONENTS
-@import "./components/main-btn";
-@import "./components/menu-link";
-@import "./components/menu-item";
-@import "./components/contact-link";
-@import "./components/contact-item";
-@import "./components/list-icon";
-@import "./components/spec-item";
-@import "./components/section-description";
-@import "./components/section-title";
-@import "./components/link-icon";
-@import "./components/icon-link";
-@import "./components/worker-item";
-@import "./components/worker-name";
-@import "./components/worker-text";
-@import "./components/clients-link";
-@import "./components/clients-img";
-@import "./components/link-icon-footer";
-@import "./components/icon-link-footer";
-@import "./components/nav-link";
-@import "./components/address-link";
-@import "./components/portfolio-btn";
-@import "./components/gallery-list-title";
-@import "./components/gallery-list-title";
-@import "./components/overlay-description";
-@import "./components/gallery-link";
-@import "./components/gallery-item";
-@import "./components/gallery-list-description";
-@import "./components/gallery-description";
-@import "./components/backdrop";
-@import "./components/modal";
-@import "./components/modal-form";
-@import "./components/footer-form";
+// Base
 
-//LAYOUT
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/specification";
-@import "./layout/what-are-we-doing";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/footer";
-@import "./layout/portfolio";
+@import './base/base';
+@import './base/container';
+
+// Components
+
+@import './components/logo';
+@import './components/modal-btn';
+@import './components/social-links';
+@import './components/backdrop';
+
+// Layout
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/our-job';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/footer-social-links';
+@import './layout/footer-form';
+@import './layout/portfolio';
+@import './layout/modal-window';
+@import './layout/modal-form';
+@import './layout/modal-checkbox';
+@import './layout/mobile-menu';
