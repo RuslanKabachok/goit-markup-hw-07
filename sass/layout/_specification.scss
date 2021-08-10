@@ -1,7 +1,6 @@
 .spec-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: block;
+  align-items: center;
 }
 
 .spec-list {
@@ -17,7 +16,9 @@
   text-transform: uppercase;
 
   color: var(--text-color);
+
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .spec-list-text {
@@ -26,4 +27,5 @@
   letter-spacing: 0.03em;
 
   color: var(--grey-color);
+  margin-bottom: 30px;
 }
